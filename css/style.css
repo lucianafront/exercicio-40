@@ -161,6 +161,11 @@ ul li {
     padding-top: 50px;
 }
 
+.notificacao:hover {
+    background-color: #0074FF;
+    color: #fff;
+}
+
 .funcoes .col {
     height: 448px;
     background: #0074FF;
@@ -232,8 +237,53 @@ ul li {
 }
 
 
+
+
+
+.neutralArea {
+    width: 450px;
+    height: 150px;
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #ccc;
+}
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: #0074FF;
+    color: #ccc;
+    font-size: 30px;
+    border: 2px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
+.item.dragging {
+    opacity: 0.5;
+}
+.areas {
+    width: 450px;
+    /* display: flex; */
+    margin-top: 20px;
+}
+.areas.correct .area {
+    border: 5px solid #CCC;
+}
+.area {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ccc;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .footer{
     width: 100%;
-    background: #1A1A1A;
+    /* background: #1A1A1A; */
     padding-bottom: 30px;
 }
